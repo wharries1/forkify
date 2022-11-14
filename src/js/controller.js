@@ -208,6 +208,10 @@ const controlBookmarkHide = function(){
   //recipeView.render(model.state.recipe);
 }
 
+const newFeature = function(){
+  console.log('welcome to the application');
+}
+
 const init = function(){
 
   controlLandingPage();
@@ -229,6 +233,7 @@ const init = function(){
   resultsMobileView.addHandlerRecipeHide(controlRenderHide);
   resultsMobileView.addHandlerBookmarkShow(controlBookmarkShow);
   resultsMobileView.addHandlerBookmarkHide(controlBookmarkHide);
+  newFeature();
   
 };
 
